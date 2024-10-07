@@ -37,7 +37,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Bilişim Teknolojilerine Giriş",
     instructor: "Dr. Öğr. Üyesi Ahmet COŞKUNÇAY",
-    place: "MUH024 - E4"
+    place: "MUH007 - D16"
   },
   {
     time: 13,
@@ -45,9 +45,9 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Bilişim Teknolojilerine Giriş",
     instructor: "Dr. Öğr. Üyesi Ahmet COŞKUNÇAY",
-    place: "MUH024 - E4"
+    place: "MUH007 - D16"
   },
-]
+];
 
 const tuesday = [
   {
@@ -90,7 +90,7 @@ const tuesday = [
     instructor: "Prof.Dr. Ahmet MARAŞ",
     place: "MUH004 - D13"
   },
-]
+];
 
 const wednesday = [
   {
@@ -149,7 +149,7 @@ const wednesday = [
     instructor: "Prof.Dr. İnci GÜLTEKİN",
     place: "MUH006 - D15"
   },
-]
+];
 
 const thursday = [
   {
@@ -168,7 +168,7 @@ const thursday = [
     instructor: "Doç.Dr. Barış ÖZYER",
     place: "MUH022 - E2"
   },
-]
+];
 
 const friday = [
   {
@@ -195,7 +195,7 @@ const friday = [
     instructor: "Doç.Dr. Deniz DAL",
     place: "MUH034 - TRS1"
   },
-]
+];
 
 const saturday = [
   {
@@ -214,9 +214,9 @@ const saturday = [
     instructor: "Prof.Dr. Ahmet MARAŞ",
     place: "MUH004 - D13"
   },
-]
+];
 
-const sunday = []
+const sunday = [];
 
 export const program = {
   'Monday': monday,
