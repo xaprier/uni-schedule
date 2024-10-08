@@ -64,7 +64,7 @@ function App () {
     };
 
     fetchLastCommitDate();
-  },[page,day]); // Add dependency array to prevent infinite loop
+  },[page,day,days]); // Add dependency array to prevent infinite loop
 
   return (
     <ThemeProvider theme={ darkTheme }>
