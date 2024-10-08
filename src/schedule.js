@@ -218,7 +218,7 @@ const saturday = [
 
 const sunday = [];
 
-export const program = {
+export const schedule = {
   'Monday': monday,
   'Tuesday': tuesday,
   'Wednesday': wednesday,
@@ -228,4 +228,4 @@ export const program = {
   'Sunday': sunday,
 };
 
-export default program;
+export default schedule;
