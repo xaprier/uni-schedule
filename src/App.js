@@ -31,6 +31,7 @@ function App () {
   const [totalHours,setTotalHourse] = useState(0);
   const [lastCommitDate,setLastCommitDate] = useState(null);
   const [day,setDay] = useState(days[page]); // Name of the current day
+  const [fetched,setFetched] = useState(0);
 
   const handleChangePage = (event,newPage) => {
     setPage(newPage);
@@ -60,11 +61,14 @@ function App () {
         setLastCommitDate(data.commit.committer.date);
       } catch (error) {
         console.error('Error fetching commit date:',error);
+        setFetched(-1);
+        return;
       }
+      setFetched(1);
     };
 
     fetchLastCommitDate();
-  },[page,day,days]); // Add dependency array to prevent infinite loop
+  },[]);
 
   return (
     <ThemeProvider theme={ darkTheme }>
@@ -118,7 +122,11 @@ function App () {
         </header>
         <footer style={ { padding: '20px',textAlign: 'center',color: '#fff' } }>
           <Typography variant="body1">
-            Last updated: { lastCommitDate ? new Date(lastCommitDate).toLocaleString() : 'Loading...' }
+            Last updated: {
+              fetched === 1 && lastCommitDate ? new Date(lastCommitDate).toLocaleString() :
+                fetched === 0 && !lastCommitDate ? 'Loading...' :
+                  'API Rate limit exceeded for you'
+            }
           </Typography>
           <Typography variant="body1">
             Total class hours this week: { totalHours }
