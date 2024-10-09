@@ -32,6 +32,7 @@ function App () {
   const [lastCommitDate,setLastCommitDate] = useState(null);
   const [day,setDay] = useState(days[page]); // Name of the current day
   const [fetched,setFetched] = useState(0);
+  const [initialLoad,setInitialLoad] = useState(true);
 
   const handleChangePage = (event,newPage) => {
     setPage(newPage);
@@ -39,11 +40,13 @@ function App () {
   };
 
   useEffect(() => {
-    // Get the current day's index
-    const currentDayIndex = new Date().getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
-    const adjustedIndex = (currentDayIndex + 6) % 7; // Adjust to make Monday = 0
-    setPage(adjustedIndex);
-    setDay(days[adjustedIndex]);
+    if (initialLoad && days.length > 0) {
+      const currentDayIndex = new Date().getDay();
+      const adjustedIndex = (currentDayIndex + 6) % 7; // Monday = 0
+      setPage(adjustedIndex);
+      setDay(days[adjustedIndex]);
+      setInitialLoad(false);
+    }
 
     const totalCount = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
       .reduce((total,day) => total + (schedule[day]?.length || 0),0);
@@ -68,7 +71,7 @@ function App () {
     };
 
     fetchLastCommitDate();
-  },[]);
+  },[days,initialLoad]);
 
   return (
     <ThemeProvider theme={ darkTheme }>
