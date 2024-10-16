@@ -25,7 +25,7 @@ const darkTheme = createTheme({
 function App () {
   const repoOwner = 'xaprier';
   const repoName = 'uni-schedule';
-  const hours = Array.from({ length: 10 },(_,index) => index + 8); // Hours from 8:00 to 17:00
+  const hours = Array.from({ length: 9 },(_,index) => index + 8); // Hours from 8:00 to 17:00
   const days = Object.keys(schedule); // List of days
   const [page,setPage] = useState(0); // Current day
   const [totalHours,setTotalHourse] = useState(0);
@@ -95,15 +95,26 @@ function App () {
                 { hours.map((hour) => {
                   const currentDay = days[page]; // Current day
                   const classes = schedule[currentDay] || []; // Classes for the current day
-                  const classDetails = classes.find((d) => d.time === hour) || {}; // Class details for the current hour
-                  return (
-                    <TableRow key={ hour }>
+                  const classesWithHour = classes.filter((c) => c.time === hour) || {};
+                  return classesWithHour.length > 0 ? (
+                    classesWithHour.map((classDetail,index) => (
+                      <TableRow sx={ { height: '80px' } } key={ `${hour}-${index}` }>
+                        { index === 0 && (
+                          <TableCell rowSpan={ classesWithHour.length }>
+                            { hour }:00-{ hour }:50
+                          </TableCell>
+                        ) }
+                        <TableCell>{ classDetail.courseCode || 'Empty' }</TableCell>
+                        <TableCell>{ classDetail.teachingMethod || 'Empty' }</TableCell>
+                        <TableCell>{ classDetail.courseName || 'Empty' }</TableCell>
+                        <TableCell>{ classDetail.instructor || 'Empty' }</TableCell>
+                        <TableCell>{ classDetail.place || 'Empty' }</TableCell>
+                      </TableRow>
+                    ))
+                  ) : (
+                    <TableRow sx={ { height: '80px' } } key={ hour }>
                       <TableCell>{ hour }:00-{ hour }:50</TableCell>
-                      <TableCell>{ classDetails.courseCode || 'Empty' }</TableCell>
-                      <TableCell>{ classDetails.teachingMethod || 'Empty' }</TableCell>
-                      <TableCell>{ classDetails.courseName || 'Empty' }</TableCell>
-                      <TableCell>{ classDetails.instructor || 'Empty' }</TableCell>
-                      <TableCell>{ classDetails.place || 'Empty' }</TableCell>
+                      <TableCell colSpan={ 5 }>Empty</TableCell>
                     </TableRow>
                   );
                 }) }
