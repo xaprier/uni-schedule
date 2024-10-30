@@ -94,22 +94,6 @@ const tuesday = [
 
 const wednesday = [
   {
-    time: 8,
-    courseCode: "YDZ101 (T)",
-    teachingMethod: "Uzaktan",
-    courseName: "Yabancı Dil I",
-    instructor: "Öğr.Gör. Emine NAKİPOĞLU",
-    place: "Sanal Sınıf"
-  },
-  {
-    time: 9,
-    courseCode: "YDZ101 (T)",
-    teachingMethod: "Uzaktan",
-    courseName: "Yabancı Dil I",
-    instructor: "Öğr.Gör. Emine NAKİPOĞLU",
-    place: "Sanal Sınıf"
-  },
-  {
     time: 9,
     courseCode: "FFZ121-F(T)",
     teachingMethod: "Yüzyüze",
