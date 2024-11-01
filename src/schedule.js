@@ -183,20 +183,20 @@ const friday = [
 
 const saturday = [
   {
-    time: 10,
+    time: 15,
     courseCode: "FKM123-E(L)",
     teachingMethod: "Yüzyüze",
     courseName: "Kimya",
     instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "MUH004 - D13"
+    place: "FEN - GL1"
   },
   {
-    time: 11,
+    time: 16,
     courseCode: "FKM123-E(L)",
     teachingMethod: "Yüzyüze",
     courseName: "Kimya",
     instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "MUH004 - D13"
+    place: "FEN - GL1"
   },
 ];
 
