@@ -16,22 +16,6 @@ const monday = [
     place: "MUH006 - D15"
   },
   {
-    time: 10,
-    courseCode: "FFZ121-F(L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "MUH002 - D11"
-  },
-  {
-    time: 11,
-    courseCode: "FFZ121-F(L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "MUH002 - D11"
-  },
-  {
     time: 12,
     courseCode: "MBM105(T)",
     teachingMethod: "Yüzyüze",
@@ -136,6 +120,14 @@ const wednesday = [
 ];
 
 const thursday = [
+  {
+    time: 13,
+    courseCode: "FFZ121-F (L)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Fizik I",
+    instructor: "Prof.Dr. Mustafa SAĞLAM",
+    place: "Fen Fakültesi - Fizik Laboratuvarı"
+  },
   {
     time: 14,
     courseCode: "MBM101 (T)",
