@@ -35,6 +35,9 @@ function App () {
   const [initialLoad,setInitialLoad] = useState(true);
 
   const handleChangePage = (event,newPage) => {
+    if (newPage === days.length) {
+      newPage = 0; // Loop back to Monday
+    }
     setPage(newPage);
     setDay(days[newPage]); // Update the current day name
   };
@@ -124,7 +127,7 @@ function App () {
           <TablePagination
             rowsPerPageOptions={ [] }
             component="div"
-            count={ days.length } // Total number of days
+            count={ days.length + 1 } // Total number of days
             rowsPerPage={ 1 } // Show one day per page
             page={ page }
             onPageChange={ handleChangePage }

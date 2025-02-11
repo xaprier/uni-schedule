@@ -1,195 +1,197 @@
 const monday = [
   {
-    time: 8,
-    courseCode: "FMT151-G(T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Matematik I",
-    instructor: "Prof.Dr. İnci GÜLTEKİN",
-    place: "MUH006 - D15"
-  },
-  {
     time: 9,
-    courseCode: "FMT151-G(T)",
+    courseCode: "FMT170 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Matematik I",
-    instructor: "Prof.Dr. İnci GÜLTEKİN",
-    place: "MUH006 - D15"
+    courseName: "Ayrık Matematik",
+    instructor: "Prof.Dr. Murat SUBAŞI",
+    place: "MUH007 - D16"
   },
   {
-    time: 12,
-    courseCode: "MBM105(T)",
+    time: 10,
+    courseCode: "FMT170 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Bilişim Teknolojilerine Giriş",
-    instructor: "Dr. Öğr. Üyesi Ahmet COŞKUNÇAY",
+    courseName: "Ayrık Matematik",
+    instructor: "Prof.Dr. Murat SUBAŞI",
+    place: "MUH007 - D16"
+  },
+  {
+    time: 11,
+    courseCode: "FMT170 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Ayrık Matematik",
+    instructor: "Prof.Dr. Murat SUBAŞI",
     place: "MUH007 - D16"
   },
   {
     time: 13,
-    courseCode: "MBM105(T)",
+    courseCode: "FFZ122-H (Mühendislik Fakültesi) (L)",
     teachingMethod: "Yüzyüze",
-    courseName: "Bilişim Teknolojilerine Giriş",
-    instructor: "Dr. Öğr. Üyesi Ahmet COŞKUNÇAY",
-    place: "MUH007 - D16"
+    courseName: "Fizik II",
+    instructor: "Prof.Dr. Ali GÜROL",
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+  },
+  {
+    time: 14,
+    courseCode: "FFZ122-H (Mühendislik Fakültesi) (L)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Fizik II",
+    instructor: "Prof.Dr. Ali GÜROL",
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+  },
+  {
+    time: 15,
+    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Matematik II",
+    instructor: "Prof.Dr. Halit ORHAN",
+    place: "MUH003 - D12"
+  },
+  {
+    time: 16,
+    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Matematik II",
+    instructor: "Prof.Dr. Halit ORHAN",
+    place: "MUH003 - D12"
   },
 ];
 
 const tuesday = [
   {
     time: 9,
-    courseCode: "MBM103 (L)",
+    courseCode: "MBM104 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Programlamaya Giriş",
+    courseName: "Nesneye Yönelik Programlama",
     instructor: "Doç.Dr. Deniz DAL",
     place: "MUH037 - TRS-E1"
   },
   {
     time: 10,
-    courseCode: "MBM103 (L)",
+    courseCode: "MBM104 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Programlamaya Giriş",
+    courseName: "Nesneye Yönelik Programlama",
     instructor: "Doç.Dr. Deniz DAL",
     place: "MUH037 - TRS-E1"
   },
   {
-    time: 14,
-    courseCode: "FKM123-E(T)",
+    time: 11,
+    courseCode: "MBM104 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Kimya",
-    instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "MUH004 - D13"
-  },
-  {
-    time: 15,
-    courseCode: "FKM123-E(T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Kimya",
-    instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "MUH004 - D13"
-  },
-  {
-    time: 16,
-    courseCode: "FKM123-E(T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Kimya",
-    instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "MUH004 - D13"
-  },
+    courseName: "Nesneye Yönelik Programlama",
+    instructor: "Doç.Dr. Deniz DAL",
+    place: "MUH037 - TRS-E1"
+  }
 ];
 
 const wednesday = [
   {
     time: 9,
-    courseCode: "FFZ121-F(T)",
+    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "MUH002 - D11"
+    courseName: "Fizik II",
+    instructor: "Prof.Dr. Ali GÜROL",
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
   },
   {
     time: 10,
-    courseCode: "FFZ121-F(T)",
+    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "MUH002 - D11"
+    courseName: "Fizik II",
+    instructor: "Prof.Dr. Ali GÜROL",
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
   },
   {
     time: 11,
-    courseCode: "FFZ121-F(T)",
+    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "MUH002 - D11"
+    courseName: "Fizik II",
+    instructor: "Prof.Dr. Ali GÜROL",
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+  },
+  {
+    time: 12,
+    courseCode: "MBM104 (U)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Nesneye Yönelik Programlama",
+    instructor: "Doç.Dr. Deniz DAL",
+    place: "MUH036 - TRS3"
   },
   {
     time: 13,
-    courseCode: "FMT151-G(T)",
+    courseCode: "MBM104 (U)",
     teachingMethod: "Yüzyüze",
-    courseName: "Matematik I",
-    instructor: "Prof.Dr. İnci GÜLTEKİN",
-    place: "MUH006 - D15"
+    courseName: "Nesneye Yönelik Programlama",
+    instructor: "Doç.Dr. Deniz DAL",
+    place: "MUH036 - TRS3"
   },
   {
-    time: 14,
-    courseCode: "FMT151-G(T)",
+    time: 15,
+    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Matematik I",
-    instructor: "Prof.Dr. İnci GÜLTEKİN",
-    place: "MUH006 - D15"
+    courseName: "Matematik II",
+    instructor: "Prof.Dr. Halit ORHAN",
+    place: "MUH003 - D12"
+  },
+  {
+    time: 16,
+    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Matematik II",
+    instructor: "Prof.Dr. Halit ORHAN",
+    place: "MUH003 - D12"
   },
 ];
 
 const thursday = [
-  {
-    time: 13,
-    courseCode: "FFZ121-F (L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik I",
-    instructor: "Prof.Dr. Mustafa SAĞLAM",
-    place: "Fen Fakültesi - Fizik Laboratuvarı"
-  },
-  {
-    time: 14,
-    courseCode: "MBM101 (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Bilgisayar Mühendisliğine Giriş",
-    instructor: "Doç.Dr. Barış ÖZYER",
-    place: "MUH022 - E2"
-  },
-  {
-    time: 15,
-    courseCode: "MBM101 (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Bilgisayar Mühendisliğine Giriş",
-    instructor: "Doç.Dr. Barış ÖZYER",
-    place: "MUH022 - E2"
-  },
+
 ];
 
 const friday = [
   {
     time: 9,
-    courseCode: "MBM103 (T)",
+    courseCode: "MBM202 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Programlamaya Giriş",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH034 - TRS1"
+    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
+    place: "MUH008 - D17"
   },
   {
     time: 10,
-    courseCode: "MBM103 (T)",
+    courseCode: "MBM202 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Programlamaya Giriş",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH034 - TRS1"
+    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
+    place: "MUH008 - D17"
   },
   {
     time: 11,
-    courseCode: "MBM103 (T)",
+    courseCode: "MBM202 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Programlamaya Giriş",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH034 - TRS1"
+    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
+    place: "MUH008 - D17"
+  },
+  {
+    time: 13,
+    courseCode: "YDZ102 (T)",
+    teachingMethod: "Uzaktan",
+    courseName: "Yabancı Dil II",
+    instructor: "Öğr.Gör. Gökhan FINDIK",
+    place: "Sanal Sınıf"
+  },
+  {
+    time: 14,
+    courseCode: "YDZ102 (T)",
+    teachingMethod: "Uzaktan",
+    courseName: "Yabancı Dil II",
+    instructor: "Öğr.Gör. Gökhan FINDIK",
+    place: "Sanal Sınıf"
   },
 ];
 
 const saturday = [
-  {
-    time: 15,
-    courseCode: "FKM123-E(L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Kimya",
-    instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "FEN - GL1"
-  },
-  {
-    time: 16,
-    courseCode: "FKM123-E(L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Kimya",
-    instructor: "Prof.Dr. Ahmet MARAŞ",
-    place: "FEN - GL1"
-  },
+  
 ];
 
 const sunday = [];
