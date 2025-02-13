@@ -81,6 +81,30 @@ const tuesday = [
     courseName: "Nesneye Yönelik Programlama",
     instructor: "Doç.Dr. Deniz DAL",
     place: "MUH037 - TRS-E1"
+  },
+  {
+    time: 13,
+    courseCode: "FMT162",
+    teachingMethod: "Yüzyüze",
+    courseName: "Lineer Cebir",
+    instructor: "Prof.Dr. Erdal KARADUMAN",
+    place: ""
+  },
+  {
+    time: 14,
+    courseCode: "FMT162",
+    teachingMethod: "Yüzyüze",
+    courseName: "Lineer Cebir",
+    instructor: "Prof.Dr. Erdal KARADUMAN",
+    place: ""
+  },
+  {
+    time: 15,
+    courseCode: "FMT162",
+    teachingMethod: "Yüzyüze",
+    courseName: "Lineer Cebir",
+    instructor: "Prof.Dr. Erdal KARADUMAN",
+    place: ""
   }
 ];
 
