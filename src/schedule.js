@@ -88,7 +88,7 @@ const tuesday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: ""
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
   },
   {
     time: 14,
@@ -96,7 +96,7 @@ const tuesday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: ""
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
   },
   {
     time: 15,
@@ -104,7 +104,7 @@ const tuesday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: ""
+    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
   }
 ];
 
