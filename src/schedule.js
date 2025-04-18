@@ -197,6 +197,14 @@ const friday = [
     place: "MUH008 - D17"
   },
   {
+    time: 11,
+    courseCode: "MBM202 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Fizik II Lab",
+    instructor: "",
+    place: "Fizik Lab I"
+  },
+  {
     time: 13,
     courseCode: "YDZ102 (T)",
     teachingMethod: "Uzaktan",
