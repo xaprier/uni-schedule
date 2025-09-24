@@ -1,169 +1,145 @@
 const monday = [
   {
-    time: 9,
-    courseCode: "FMT170 (T)",
+    time: 8,
+    courseCode: "MBM307 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Ayrık Matematik",
-    instructor: "Prof.Dr. Murat SUBAŞI",
+    courseName: "Veri Tabanı Yönetim Sistemleri",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
+    place: "MUH007 - D16"
+  },
+  {
+    time: 9,
+    courseCode: "MBM307 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Veri Tabanı Yönetim Sistemleri",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
     place: "MUH007 - D16"
   },
   {
     time: 10,
-    courseCode: "FMT170 (T)",
+    courseCode: "MBM307 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Ayrık Matematik",
-    instructor: "Prof.Dr. Murat SUBAŞI",
+    courseName: "Veri Tabanı Yönetim Sistemleri",
+    instructor: "Doç.Dr. Mete YAĞANOĞLU",
     place: "MUH007 - D16"
   },
   {
     time: 11,
-    courseCode: "FMT170 (T)",
+    courseCode: "MBM205 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Ayrık Matematik",
-    instructor: "Prof.Dr. Murat SUBAŞI",
-    place: "MUH007 - D16"
+    courseName: "Görsel Programlama",
+    instructor: "Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER",
+    place: "MUH036 - TRS3"
+  },
+  {
+    time: 12,
+    courseCode: "MBM205 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Görsel Programlama",
+    instructor: "Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER",
+    place: "MUH036 - TRS3"
   },
   {
     time: 13,
-    courseCode: "FFZ122-H (Mühendislik Fakültesi) (L)",
+    courseCode: "MBM205 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik II",
-    instructor: "Prof.Dr. Ali GÜROL",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
-  },
-  {
-    time: 14,
-    courseCode: "FFZ122-H (Mühendislik Fakültesi) (L)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik II",
-    instructor: "Prof.Dr. Ali GÜROL",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
-  },
-  {
-    time: 15,
-    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Matematik II",
-    instructor: "Prof.Dr. Halit ORHAN",
-    place: "MUH003 - D12"
-  },
-  {
-    time: 16,
-    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Matematik II",
-    instructor: "Prof.Dr. Halit ORHAN",
-    place: "MUH003 - D12"
+    courseName: "Görsel Programlama",
+    instructor: "Dr. Öğr. Üyesi Gülşah TÜMÜKLÜ ÖZYER",
+    place: "MUH036 - TRS3"
   },
 ];
 
 const tuesday = [
   {
     time: 9,
-    courseCode: "MBM104 (T)",
+    courseCode: "MBM201 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Nesneye Yönelik Programlama",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH037 - TRS-E1"
+    courseName: "Sayısal Tasarım",
+    instructor: "Dr.Öğr. Üyesi Bilal USANMAZ",
+    place: "MUH024 - E4"
   },
   {
     time: 10,
-    courseCode: "MBM104 (T)",
+    courseCode: "MBM201 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Nesneye Yönelik Programlama",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH037 - TRS-E1"
+    courseName: "Sayısal Tasarım",
+    instructor: "Dr.Öğr. Üyesi Bilal USANMAZ",
+    place: "MUH024 - E4"
   },
   {
     time: 11,
-    courseCode: "MBM104 (T)",
+    courseCode: "MBM201 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Nesneye Yönelik Programlama",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH037 - TRS-E1"
-  },
-  {
-    time: 13,
-    courseCode: "FMT162",
-    teachingMethod: "Yüzyüze",
-    courseName: "Lineer Cebir",
-    instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+    courseName: "Sayısal Tasarım",
+    instructor: "Dr.Öğr. Üyesi Bilal USANMAZ",
+    place: "MUH024 - E4"
   },
   {
     time: 14,
-    courseCode: "FMT162",
+    courseCode: "MBM207 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Lineer Cebir",
-    instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+    courseName: "Programlama Dilleri",
+    instructor: "Doç.Dr. Önder ÇOBAN",
+    place: "MUH034 - TRS1"
   },
   {
     time: 15,
-    courseCode: "FMT162",
+    courseCode: "MBM207 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Lineer Cebir",
-    instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+    courseName: "Programlama Dilleri",
+    instructor: "Doç.Dr. Önder ÇOBAN",
+    place: "MUH034 - TRS1"
+  },
+  {
+    time: 16,
+    courseCode: "MBM207 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Programlama Dilleri",
+    instructor: "Doç.Dr. Önder ÇOBAN",
+    place: "MUH034 - TRS1"
   }
 ];
 
 const wednesday = [
   {
-    time: 9,
-    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik II",
-    instructor: "Prof.Dr. Ali GÜROL",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
-  },
-  {
     time: 10,
-    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
+    courseCode: "MBM203 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik II",
-    instructor: "Prof.Dr. Ali GÜROL",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+    courseName: "Veri Yapıları ve Algoritmalar",
+    instructor: "Dr. Öğr. Üyesi Esra ÇELİK",
+    place: "MUH004 - D13"
   },
   {
     time: 11,
-    courseCode: "FFZ122-H (Mühendislik Fakültesi) (T)",
+    courseCode: "MBM203 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Fizik II",
-    instructor: "Prof.Dr. Ali GÜROL",
-    place: "D-201 - Merkezi Dershaneler (Palandöken ) D-201"
+    courseName: "Veri Yapıları ve Algoritmalar",
+    instructor: "Dr. Öğr. Üyesi Esra ÇELİK",
+    place: "MUH004 - D13"
   },
   {
     time: 12,
-    courseCode: "MBM104 (U)",
+    courseCode: "MBM203 (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Nesneye Yönelik Programlama",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH036 - TRS3"
+    courseName: "Veri Yapıları ve Algoritmalar",
+    instructor: "Dr. Öğr. Üyesi Esra ÇELİK",
+    place: "MUH004 - D13"
   },
   {
     time: 13,
-    courseCode: "MBM104 (U)",
+    courseCode: "MBM201 (L)",
     teachingMethod: "Yüzyüze",
-    courseName: "Nesneye Yönelik Programlama",
-    instructor: "Doç.Dr. Deniz DAL",
-    place: "MUH036 - TRS3"
+    courseName: "Sayısal Tasarım",
+    instructor: "Dr. Öğr. Üyesi Bilal USANMAZ",
+    place: "MUH020 - E1"
   },
   {
-    time: 15,
-    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
+    time: 14,
+    courseCode: "MBM201 (L)",
     teachingMethod: "Yüzyüze",
-    courseName: "Matematik II",
-    instructor: "Prof.Dr. Halit ORHAN",
-    place: "MUH003 - D12"
-  },
-  {
-    time: 16,
-    courseCode: "FMT152-E (Mühendislik Fakültesi) (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Matematik II",
-    instructor: "Prof.Dr. Halit ORHAN",
-    place: "MUH003 - D12"
+    courseName: "Sayısal Tasarım",
+    instructor: "Dr. Öğr. Üyesi Bilal USANMAZ",
+    place: "MUH020 - E1"
   },
 ];
 
@@ -174,51 +150,27 @@ const thursday = [
 const friday = [
   {
     time: 9,
-    courseCode: "MBM202 (T)",
+    courseCode: "FMT171-E (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
-    instructor: "Doç.Dr. Mete YAĞANOĞLU",
-    place: "MUH008 - D17"
+    courseName: "Diferansiyel Denklemler",
+    instructor: "Prof.Dr. Ömer TARAKCI",
+    place: "MUH014 - D4"
   },
   {
     time: 10,
-    courseCode: "MBM202 (T)",
+    courseCode: "FMT171-E (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
-    instructor: "Doç.Dr. Mete YAĞANOĞLU",
-    place: "MUH008 - D17"
+    courseName: "Diferansiyel Denklemler",
+    instructor: "Prof.Dr. Ömer TARAKCI",
+    place: "MUH014 - D4"
   },
   {
     time: 11,
-    courseCode: "MBM202 (T)",
+    courseCode: "FMT171-E (T)",
     teachingMethod: "Yüzyüze",
-    courseName: "Bilgisayar Organizasyonu ve Tasarımı",
-    instructor: "Doç.Dr. Mete YAĞANOĞLU",
-    place: "MUH008 - D17"
-  },
-  {
-    time: 11,
-    courseCode: "MBM202 (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Fizik II Lab",
-    instructor: "",
-    place: "Fizik Lab I"
-  },
-  {
-    time: 13,
-    courseCode: "YDZ102 (T)",
-    teachingMethod: "Uzaktan",
-    courseName: "Yabancı Dil II",
-    instructor: "Öğr.Gör. Gökhan FINDIK",
-    place: "Sanal Sınıf"
-  },
-  {
-    time: 14,
-    courseCode: "YDZ102 (T)",
-    teachingMethod: "Uzaktan",
-    courseName: "Yabancı Dil II",
-    instructor: "Öğr.Gör. Gökhan FINDIK",
-    place: "Sanal Sınıf"
+    courseName: "Diferansiyel Denklemler",
+    instructor: "Prof.Dr. Ömer TARAKCI",
+    place: "MUH014 - D4"
   },
 ];
 
