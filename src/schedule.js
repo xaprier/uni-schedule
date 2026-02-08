@@ -5,7 +5,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205"
+    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205",
     attendanceRequired: false
   },
   {
@@ -22,7 +22,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205"
+    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205",
     attendanceRequired: false
   },
   {
@@ -39,7 +39,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Lineer Cebir",
     instructor: "Prof.Dr. Erdal KARADUMAN",
-    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205"
+    place: "D-205 - Merkezi Dershaneler (Palandöken) D-205",
     attendanceRequired: false
   },
   {
@@ -72,7 +72,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Matematik II",
     instructor: "Dr. Öğr. Üyesi Merve ÖZKAN",
-    place: "MUH005 - D14"
+    place: "MUH005 - D14",
     attendanceRequired: false
   },
   {
@@ -81,7 +81,7 @@ const monday = [
     teachingMethod: "Yüzyüze",
     courseName: "Matematik II",
     instructor: "Dr. Öğr. Üyesi Merve ÖZKAN",
-    place: "MUH005 - D14"
+    place: "MUH005 - D14",
     attendanceRequired: false
   }
 ];
@@ -168,7 +168,7 @@ const wednesday = [
     teachingMethod: "Yüzyüze",
     courseName: "Matematik II",
     instructor: "Dr. Öğr. Üyesi Merve ÖZKAN",
-    place: "MUH005 - D14"
+    place: "MUH005 - D14",
     attendanceRequired: false
   },
   {
@@ -177,7 +177,7 @@ const wednesday = [
     teachingMethod: "Yüzyüze",
     courseName: "Matematik II",
     instructor: "Dr. Öğr. Üyesi Merve ÖZKAN",
-    place: "MUH005 - D14"
+    place: "MUH005 - D14",
     attendanceRequired: false
   }
 ];
