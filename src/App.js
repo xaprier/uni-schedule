@@ -101,7 +101,16 @@ function App () {
                   const classesWithHour = classes.filter((c) => c.time === hour) || {};
                   return classesWithHour.length > 0 ? (
                     classesWithHour.map((classDetail,index) => (
-                      <TableRow sx={ { height: '80px' } } key={ `${hour}-${index}` }>
+                      <TableRow 
+                        sx={{
+                          height: '80px',
+                          backgroundColor:
+                            classDetail.attendanceRequired === false
+                              ? 'rgba(107, 22, 16, 0.6)' 
+                              : 'inherit'
+                        }} 
+                        key={ `${hour}-${index}` }
+                      >
                         { index === 0 && (
                           <TableCell rowSpan={ classesWithHour.length }>
                             { hour }:00-{ hour }:50
