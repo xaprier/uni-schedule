@@ -214,24 +214,24 @@ const friday = [
     courseCode: "FST-102 (T)",
     teachingMethod: "Yüzyüze",
     courseName: "Olasılık ve İstatistik",
-    instructor: "Prof.Dr. Ahmet TORTUM",
-    place: "MUH013 - D3"
+    instructor: "Dr. Öğr. Üyesi Raziye KILIÇ SARIGÜL",
+    place: "MUH013 - D15"
   },
   {
     time: 15,
     courseCode: "FST-102 (T)",
     teachingMethod: "Yüzyüze",
     courseName: "Olasılık ve İstatistik",
-    instructor: "Prof.Dr. Ahmet TORTUM",
-    place: "MUH013 - D3"
+    instructor: "Dr. Öğr. Üyesi Raziye KILIÇ SARIGÜL",
+    place: "MUH013 - D15"
   },
   {
     time: 16,
     courseCode: "FST-102 (T)",
     teachingMethod: "Yüzyüze",
     courseName: "Olasılık ve İstatistik",
-    instructor: "Prof.Dr. Ahmet TORTUM",
-    place: "MUH013 - D3"
+    instructor: "Dr. Öğr. Üyesi Raziye KILIÇ SARIGÜL",
+    place: "MUH013 - D15"
   }
 ];
 

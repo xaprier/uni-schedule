@@ -104,10 +104,6 @@ function App () {
                       <TableRow 
                         sx={{
                           height: '80px',
-                          backgroundColor:
-                            classDetail.attendanceRequired === false
-                              ? 'rgba(107, 22, 16, 0.6)' 
-                              : 'inherit'
                         }} 
                         key={ `${hour}-${index}` }
                       >
@@ -116,11 +112,11 @@ function App () {
                             { hour }:00-{ hour }:50
                           </TableCell>
                         ) }
-                        <TableCell>{ classDetail.courseCode || 'Empty' }</TableCell>
-                        <TableCell>{ classDetail.teachingMethod || 'Empty' }</TableCell>
-                        <TableCell>{ classDetail.courseName || 'Empty' }</TableCell>
-                        <TableCell>{ classDetail.instructor || 'Empty' }</TableCell>
-                        <TableCell>{ classDetail.place || 'Empty' }</TableCell>
+                        <TableCell sx={{backgroundColor: classDetail.attendanceRequired === false ? 'rgba(107, 22, 16, 0.6)' : 'inherit'}}>{ classDetail.courseCode || 'Empty' }</TableCell>
+                        <TableCell sx={{backgroundColor: classDetail.attendanceRequired === false ? 'rgba(107, 22, 16, 0.6)' : 'inherit'}}>{ classDetail.teachingMethod || 'Empty' }</TableCell>
+                        <TableCell sx={{backgroundColor: classDetail.attendanceRequired === false ? 'rgba(107, 22, 16, 0.6)' : 'inherit'}}>{ classDetail.courseName || 'Empty' }</TableCell>
+                        <TableCell sx={{backgroundColor: classDetail.attendanceRequired === false ? 'rgba(107, 22, 16, 0.6)' : 'inherit'}}>{ classDetail.instructor || 'Empty' }</TableCell>
+                        <TableCell sx={{backgroundColor: classDetail.attendanceRequired === false ? 'rgba(107, 22, 16, 0.6)' : 'inherit'}}>{ classDetail.place || 'Empty' }</TableCell>
                       </TableRow>
                     ))
                   ) : (
