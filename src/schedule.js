@@ -182,9 +182,15 @@ const wednesday = [
   }
 ];
 
-const thursday = [];
-
-const friday = [
+const thursday = [
+  {
+    time: 9,
+    courseCode: "MBM208 (T)",
+    teachingMethod: "Yüzyüze",
+    courseName: "Elektronik Devreler",
+    instructor: "Dr. Öğr. Üyesi Rabiye KILIÇ",
+    place: "MUH024 - E4"
+  },
   {
     time: 10,
     courseCode: "MBM208 (T)",
@@ -201,14 +207,9 @@ const friday = [
     instructor: "Dr. Öğr. Üyesi Rabiye KILIÇ",
     place: "MUH024 - E4"
   },
-  {
-    time: 12,
-    courseCode: "MBM208 (T)",
-    teachingMethod: "Yüzyüze",
-    courseName: "Elektronik Devreler",
-    instructor: "Dr. Öğr. Üyesi Rabiye KILIÇ",
-    place: "MUH024 - E4"
-  },
+];
+
+const friday = [
   {
     time: 14,
     courseCode: "FST-102 (T)",
